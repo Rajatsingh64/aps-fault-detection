@@ -5,7 +5,7 @@ from sensor.config import mongo_client
 #connecting to a MongoDB Atlas using url
 
 database_name="aps"
-file_path=r"E:\PYTHON PROJECTS\V-S Code Projects\app_fault_detection\aps_failure_training_set1.csv"
+file_path="aps_failure_training_set1.csv"
 collection_name="sensor"
 
 if __name__=="__main__":

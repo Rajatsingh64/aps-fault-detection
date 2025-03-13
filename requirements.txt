@@ -1,0 +1,25 @@
+
+dill==0.3.5.1
+dnspython==2.2.1
+fastapi==0.78.0
+httptools
+imblearn
+scikit-learn
+mypy-boto3-s3==1.24.76
+pip-chill==1.0.1
+pymongo
+setuptools
+typing
+python-dotenv
+types-s3transfer==0.6.0.post4
+uvicorn==0.18.3
+watchfiles==0.17.0
+websockets==10.3
+wincertstore==0.2
+xgboost
+pandas
+PyYAML
+numpy
+scipy
+apache-airflow
+-e .
