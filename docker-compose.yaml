@@ -3,7 +3,7 @@ version: "3.8"  # Using version 3.8 for compatibility
 services:
   application:
     image: ${IMAGE_NAME}  # Pulls the image from the specified IMAGE_NAME (e.g., your ECR registry)
-    container_name: aps  # Names the container 'customer'
+    container_name: sensor-fault  # Names the container 'customer'
     ports:
       - "8080:8080"  # Exposes port 8080 on the host to port 8080 inside the container
     environment:
