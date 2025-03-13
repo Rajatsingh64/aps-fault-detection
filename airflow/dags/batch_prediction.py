@@ -13,7 +13,7 @@ with DAG(
     # [END default_args]
     description='Sensor Fault Detection',
     schedule_interval="@weekly",
-    start_date=pendulum.datetime(2022, 12, 11, tz="UTC"),
+    start_date=pendulum.datetime(2025, 3, 13, tz="UTC"),
     catchup=False,
     tags=['example'],
 ) as dag:
